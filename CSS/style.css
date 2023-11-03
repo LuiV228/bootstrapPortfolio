@@ -12,6 +12,7 @@
   background-size: cover;
   position: relative;
 }
+
 body {
   font-family: "Lusitana", serif;
 }
@@ -24,6 +25,12 @@ section {
   background: linear-gradient(
     180deg,
     rgb(255, 0, 199, 50%) 0%,
+    rgb(0, 10, 255, 25%) 14%,
+    rgb(255, 0, 199, 50%) 28%,
+    rgb(0, 10, 255, 25%) 42%,
+    rgb(255, 0, 199, 50%) 57%,
+    rgb(0, 10, 255, 25%) 71%,
+    rgb(255, 0, 199, 50%) 85%,
     rgb(0, 10, 255, 25%) 100%
   );
 }
@@ -482,4 +489,47 @@ img[alt=pic1] {
     width: 100%;
     margin: 95px;
     margin-bottom: 20px;
+}
+
+#Skills{
+  height: 100%;
+  width: 35%;
+  display: flex;
+  border-radius: 0%;
+}
+
+#contMe {
+  text-align: center;
+}
+
+#message {
+  margin-bottom: 30px;
+}
+
+.formy {
+  background: rgb(241, 224, 224);
+  border-radius: 10px;
+  margin: 1%;
+  padding: 2px 6px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.ROW {
+  height: 75vh;
+  margin-bottom: 3%;
+}
+
+.two h2 {
+  font-size: 30px;
+}
+
+.two p {
+  font-size: 15px;
+}
+
+.two {
+  display: flex;
+  flex-flow: column;
+  font-size: 15px;
 }
