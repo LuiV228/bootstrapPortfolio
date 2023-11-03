@@ -410,3 +410,76 @@ img{
   .wrapper:hover #right-door {
     transform: rotateY(140deg);
   }
+  section #testimonials{
+    height: 100vh;
+    width: 100%;
+  }
+  .testi{
+    width: 0%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0%;
+}
+.testi-col{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    margin-bottom: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.testi-col img{
+    width: 20%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+img[alt=g2] {
+    width: 230px;
+    margin: 0 3em;
+}
+
+.layer:hover{
+    background: rgba(8, 0, 226, 0.7);
+}
+.layer p{
+    text-align: center;
+    font-weight: 50;
+    color: white;
+    font-size: 13px;
+    bottom: 0;
+    left: 10%;
+    transform: translate(-5%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover p{
+    bottom: 10%;
+    opacity: 1;
+}
+
+img[alt=pic1] {
+    width: 240px;
+    margin: 0 4em;
+}
+
+.Row1 {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 100%;
+}
+.Row2 {
+    width: 100%;
+    margin: 95px;
+    margin-bottom: 20px;
+}
