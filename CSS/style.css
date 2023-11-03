@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lusitana&family=Pixelify+Sans&family=Playpen+Sans:wght@700&display=swap');
-  .container {
+  .container1 {
     height: 100%;
     width: 100%;
     background-position: center;
@@ -55,7 +55,7 @@
     content: "";
     width: 0%;
     height: 0%;
-    background: rgb(0, 10, 255, 25%);
+    background: rgb(0, 10, 255, 75%);
     display: block;
     margin-bottom: 1%;
     transition: 0.5s;
@@ -68,7 +68,7 @@
     content: "";
     width: 0%;
     height: 0%;
-    background: rgb(0, 10, 255, 25%);
+    background: rgb(0, 10, 255, 75%);
     display: block;
     margin-bottom: 1%;
     transition: 0.5s;
@@ -83,7 +83,7 @@
     content: "";
     width: 0%;
     height: 2px;
-    background: rgb(0, 10, 255, 25%);
+    background: rgb(0, 10, 255, 75%);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -162,11 +162,13 @@
     margin-top: 15%;
   }
   .socials{
-    color: rgb(255, 0, 199, 100%);
+    color: rgb(0, 10, 255, 100%);
     margin-top: 30px;
     margin-bottom: 30px;
   }
   #icon{
     margin-left: 1%;
     margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
